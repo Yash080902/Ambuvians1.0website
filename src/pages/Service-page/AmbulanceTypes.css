@@ -1,0 +1,332 @@
+.ambulance-types h1 {
+  font-family: "Inknut Antiqua", serif;
+
+  color: #000;
+  font-size: 6vw;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ambulance-list-div {
+  display: flex;
+  gap: 2vw;
+  margin: 2vw;
+}
+
+.ambulance-list {
+  flex: 1;
+}
+
+.selected-ambulance-img {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ambulances-img {
+  cursor: pointer;
+  font-size: 2vw;
+  font-weight: 700;
+  text-align: center;
+}
+.ambulance-img {
+  border-radius: 9vw;
+  height: 10vw;
+  padding: 1.5vw;
+  width: 12vw;
+}
+
+.ambulance-img-figcaption {
+  font-family: "Inknut Antiqua", serif;
+}
+
+.bgc {
+  background: linear-gradient(135deg, #0092ee 0%, #203381 100%);
+}
+
+.ambulance-detail {
+  background: linear-gradient(135deg, #0092ee 0%, #203381 100%);
+  border-radius: 2vw;
+  flex: 4;
+  padding: 3vw;
+}
+
+.ambulance-detail > article > h1 {
+  color: #fff;
+  font-size: 3.5vw;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.selected-ambulance-outer-img {
+  animation: fade-in 1s ease-in forwards;
+  -webkit-animation: fade-in 1s ease-in forwards; 
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.selected-ambulance-outer-img,
+.selected-ambulance-inner-img {
+  width: 25vw;
+}
+.selected-ambulance-outer-img:hover {
+  opacity: 0.7; 
+}
+.selected-ambulance-detail {
+  color: #fff;
+  font-size: 2vw;
+  line-height: 3vw;
+  font-family: "Inknut Antiqua", serif;
+}
+
+
+.selected-ambulance-features-div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+
+.selected-ambulance-features {
+  background-color: #fff;
+
+  border-radius: 9vw;
+  cursor: pointer;
+  height: 16vw;
+  margin: 1vw 1.75vw 1vw 1.75vw;
+  padding: 2vw;
+  width: 16vw;
+}
+
+.flip-card {
+  background-color: #fff;
+  border-radius: 9vw;
+  cursor: pointer;
+  height: 16vw;
+  margin: 1vw 1.75vw 1vw 1.75vw;
+  padding: 2vw;
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-front p {
+  font-size: 1.2vw;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.flip-card-back h3 {
+  font-size: 1.8vw;
+  font-family: "Inknut Antiqua", serif;
+}
+.flip-card-back p {
+  font-size: 1.5vw;
+  font-family: "Inknut Antiqua", serif;
+}
+
+.flip-card-front img {
+  width: 9vw;
+  height: 80%;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+@media (min-width: 1441px) {
+  .flip-card-front p {
+    font-size: 1.2vw;
+  }
+
+  .flip-card-back h3 {
+    font-size: 1.5vw;
+    margin-bottom: -1vw;
+  }
+
+  .flip-card-back p {
+    font-size: 1.3vw;
+  }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .flip-card {
+    width: 16vw;
+  }
+
+  .flip-card-front p {
+    font-size: 1.2vw;
+  }
+
+  .flip-card-back h3 {
+    font-size: 1.5vw;
+    margin-bottom: -1vw;
+  }
+
+  .flip-card-back p {
+    font-size: 1.3vw;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .flip-card-front p {
+    font-size: 1.2vw;
+  }
+
+  .flip-card-back h3 {
+    font-size: 1.5vw;
+    margin-bottom: -2vw;
+  }
+
+  .flip-card-back p {
+    font-size: 1.3vw;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .flip-card-front p {
+    font-size: 1.2vw;
+  }
+
+  .flip-card-back h3 {
+    font-size: 1.5vw;
+    margin-bottom: -2vw;
+  }
+
+  .flip-card-back p {
+    font-size: 1.3vw;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .flip-card-front p {
+    font-size: 1.2vw;
+  }
+
+  .flip-card-back h3 {
+    font-size: 1.5vw;
+    margin-bottom: -3vw;
+  }
+
+  .flip-card-back p {
+    font-size: 1.3vw;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .flip-card-front p {
+    font-size: 1.2vw;
+  }
+
+  .flip-card-back h3 {
+    font-size: 1.5vw;
+    margin-bottom: -5vw;
+  }
+
+  .flip-card-back p {
+    font-size: 1.3vw;
+  }
+
+  .selected-ambulance-features {
+    height: 18vw;
+
+    width: 18vw;
+  }
+
+  .flip-card {
+    border-radius: 10vw;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .underline {
+    background-size: 30% 5px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .customer-support-figcaption {
+    font-size: 2vw;
+  }
+  .underline {
+    background-size: 30% 5px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .underline {
+    background-size: 30% 3px;
+  }
+
+  .selected-ambulance-feature-p {
+    font-size: 1.5vw;
+  }
+}
+
+.next,
+.prev {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 3vw;
+  background: transparent;
+}
+
+
+@media (max-width: 800px) {
+  .next,
+  .prev {
+  font-size: 6vw;
+    
+  }
+}
+.selected-ambulance-inner-img {
+  border-radius: 1.2vw;
+}

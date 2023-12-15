@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <meta name="keywords" content="Ambuvians, Healthcare,24/7 Support, Healthcare, Ambuvians, Ambulances,BLS, ALS, PTS, MA, Emergency">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <title>Ambuvians</title>
+
+  <style>
+    .preload-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.preload-img {
+  animation: scaleInOut 2.5s infinite cubic-bezier(.17,.67,.83,.67);
+  max-width: 250px;
+}
+
+.preload-img > img {
+  width: 100%;
+}
+
+@keyframes scaleInOut {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.075);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .preload-img {
+    max-width: 150px;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <div id="root">
+    <div class="preload-wrapper">
+      <div class="preload-img">
+        <img
+          src="./images/Perloader-images/heart.png"
+          alt=""
+        />
+      </div>
+  </div>
+</body>
+
+</html>
