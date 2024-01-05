@@ -311,7 +311,7 @@ function Footer() {
         <p> &#169;Ambuvians Healthcare Pvt. Ltd.</p>
         <p> &#169;<a href="/privacy">Privacy Policy</a></p>
         <p> &#169;<a href="/terms">Terms and Condition</a></p>
-        <p> &#169;<a href="/refund_policy">Refund Policy</a></p>
+        <p> &#169;<a href="/refund">Refund Policy</a></p>
       </div>
     </div>
   );
