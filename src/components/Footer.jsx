@@ -316,15 +316,3 @@ function Footer() {
     </div>
   );
 }
-
-export default Footer;
-<li>
-              <span>
-                <a href="/privacy">Privacy</a>
-              </span>
-            </li>
-            <li>
-              <span>
-                <a href="/terms">Terms and Condition</a>
-              </span>
-            </li>
