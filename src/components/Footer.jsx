@@ -144,16 +144,6 @@ function Footer() {
                 <a href="/hiring">Join Us</a>
               </span>
             </li>
-            <li>
-              <span>
-                <a href="/privacy">Privacy</a>
-              </span>
-            </li>
-            <li>
-              <span>
-                <a href="/terms">Terms and Condition</a>
-              </span>
-            </li>
           </ul>
         </div>
         <div className="Services">
@@ -319,9 +309,22 @@ function Footer() {
       </section>
       <div className="copyright">
         <p> &#169;Ambuvians Healthcare Pvt. Ltd.</p>
+        <p> &#169;<a href="/privacy">Privacy Policy</a></p>
+        <p> &#169;<a href="/terms">Terms and Condition</a></p>
+        <p> &#169;<a href="/refund_policy">Refund Policy</a></p>
       </div>
     </div>
   );
 }
 
 export default Footer;
+<li>
+              <span>
+                <a href="/privacy">Privacy</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="/terms">Terms and Condition</a>
+              </span>
+            </li>

@@ -20,57 +20,59 @@ const _items = [
       linkedin: "https://www.linkedin.com/in/yash-kumar-goel-b60ba2221",
     },
   },
+
   {
     player: {
-      title: "Vidushi Singhal",
-      desc: "CPO ( Chief Product Officer )",
-      image: "./images/About-images/vidushi.webp",
-      linkedin: "https://www.linkedin.com/in/vidushi-singhal-ba3980226",
+      title: "Akshat Gaur",
+      desc: "CTO IITD( Chief Technical Officer )",
+      image: "",
+      linkedin: "#",
     },
   },
-  // {
-  //   player: {
-  //     title: "Suryansh Gupta",
-  //     desc: "CPO ( Chief Product  Officer)",
-  //     image: "./images/About-images/suryansh.webp",
-  //     linkedin: "https://www.linkedin.com/in/suryansh-gupta",
-  //   },
-  // },
   {
     player: {
-      title: "Vishesh",
-      desc: "Web Tech Lead",
-      image: "./images/About-images/vishesh.webp",
+      title: "Rohit Sharma",
+      desc: "Board of Advisory Mentor",
+      image: "",
+      linkedin: "#",
+    },
+  },
+  {
+    player: {
+      title: "Saurav Kumar",
+      desc: "TBI-GM KIET",
+      image: "",
       linkedin: "https://www.linkedin.com/in/vishesh-maurya-48b1b8257",
     },
   },
-  {
-    player: {
-      title: "Nakshatra Manglik",
-      desc: "Strategic Team Core Member",
-      image: "/images/About-images/nakshatra.webp",
-      linkedin: "https://www.linkedin.com/in/nakshatra-manglik",
-    },
-  },
-
-  // {
-  //   player: {
-  //     title: "Vishnu Kumar Varma",
-  //     desc: "Web Tech Core Member",
-  //     image: "/images/About-images/vishnu.webp",
-  //     linkedin:
-  //       "https://www.linkedin.com/in/%E1%B4%A0%C9%AA%EA%9C%B1%CA%9C%C9%B4%E1%B4%9C-%E1%B4%8B%E1%B4%9C%E1%B4%8D%E1%B4%80%CA%80-%E1%B4%A0%E1%B4%87%CA%80%E1%B4%8D%E1%B4%80-217814220",
-  //   },
-  // },
-  //   {
-  //     player: {
-  //       title: "Vibhav Bhartiya",
-  //       desc: "Web Tech Core Member",
-  //       image: "/images/About-images/vibhav.webp",
-  //       linkedin: "https://www.linkedin.com/in/nakshatra-manglik",
-  //     },
-  //   },
 ];
+//   {
+//     player: {
+//       title: "Nakshatra Manglik",
+//       desc: "Strategic Team Core Member",
+//       image: "/images/About-images/nakshatra.webp",
+//       linkedin: "https://www.linkedin.com/in/nakshatra-manglik",
+//     },
+//   },
+
+//   {
+//     player: {
+//       title: "Vishnu Kumar Varma",
+//       desc: "Web Tech Core Member",
+//       image: "/images/About-images/vishnu.webp",
+//       linkedin:
+//         "https://www.linkedin.com/in/%E1%B4%A0%C9%AA%EA%9C%B1%CA%9C%C9%B4%E1%B4%9C-%E1%B4%8B%E1%B4%9C%E1%B4%8D%E1%B4%80%CA%80-%E1%B4%A0%E1%B4%87%CA%80%E1%B4%8D%E1%B4%80-217814220",
+//     },
+//   },
+//     {
+//       player: {
+//         title: "Vibhav Bhartiya",
+//         desc: "Web Tech Core Member",
+//         image: "/images/About-images/vibhav.webp",
+//         linkedin: "https://www.linkedin.com/in/nakshatra-manglik",
+//       },
+//     },
+// ];
 
 const length = _items.length;
 _items.push(..._items);
