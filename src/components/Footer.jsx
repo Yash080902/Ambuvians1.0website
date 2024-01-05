@@ -308,10 +308,10 @@ function Footer() {
         </div>
       </section>
       <div className="copyright">
-        <p> &#169;Ambuvians Healthcare Pvt. Ltd.</p>
-        <p> &#169;<a href="/privacy">Privacy Policy</a></p>
-        <p> &#169;<a href="/terms">Terms and Condition</a></p>
-        <p> &#169;<a href="/refund">Refund Policy</a></p>
+        <p> &#169;2024 Ambuvians Healthcare Pvt. Ltd.</p>
+        <p><a href="/privacy">Privacy Policy</a></p>
+        <p><a href="/terms">Terms and Condition</a></p>
+        <p><a href="/refund">Refund Policy</a></p>
       </div>
     </div>
   );

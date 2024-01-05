@@ -4,8 +4,9 @@ import Home from "./pages/Home-page/Home-page";
 import Service from "./pages/Service-page/Service";
 import About from "./pages/About-page/aboutPage";
 import Hiring from "./pages/Hiring-page/Hiring";
-import Privacy from './pages/privacy/Privacy';
-import Terms from './pages/terms/Terms'
+import Privacy from "./pages/privacy/Privacy";
+import Terms from "./pages/terms/Terms";
+import Refund from "./pages/refund/refund";
 import "../src/app.css";
 import Model from "./components/Model";
 
@@ -33,7 +34,7 @@ function App() {
         navigate("/login");
       }
     };
-
+    
     // Add the scroll event listener
     window.addEventListener("scroll", handleScroll);
 
@@ -52,6 +53,7 @@ function App() {
         <Route path="/hiring" element={<Hiring />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/refund" element={<Refund />} />
         <Route path="/login" element={<Model />} />
       </Routes>
       {showModel && <Outlet />}
